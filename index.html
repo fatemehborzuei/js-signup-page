@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+   
+</head>
+<body>
+
+<div class="signup-container">
+    <h2>ثبت نام کاربر</h2>
+    <form id="signupForm">
+        <div class="input-group">
+            <label>نام کاربری</label>
+            <input type="text" id="username" placeholder="نام کاربری خود را وارد کنید">
+            <div id="userError" class="error-msg">نام کاربری شامل کلمات است!</div>
+        </div>
+        
+        <div class="input-group">
+            <label>ایمیل</label>
+            <input type="email" id="email" placeholder="example@mail.com">
+            <div id="emailError" class="error-msg">ایمیل نامعتبر است.</div>
+        </div>
+
+        <button type="submit">ایجاد حساب</button>
+        <p id="successMsg" class="success-msg">ثبت نام با موفقیت انجام شد!</p>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
